@@ -13,8 +13,11 @@ export const FormC = () => {
     emailjs.sendForm('service_q', 'template_4to2kza', form.current, 'o-_IssFaqVS_8CuI6')
       .then((result) => {
           console.log(result.text);
+          alert("Email Sent Perfectelly.")
+          window.location.reload()
       }, (error) => {
           console.log(error.text);
+          alert("Error !!!")
       });
   };
 
