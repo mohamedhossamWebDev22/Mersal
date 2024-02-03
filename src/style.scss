@@ -101,6 +101,10 @@ body{
       }
     }
   }
+
+  h6{
+    font-weight: 100;
+  }
 }
 
 
@@ -110,5 +114,11 @@ body{
 
     margin-top: 2%;
     margin-bottom: 1%;
+    input{
+      width: 100px;
+    }
+    textarea{
+      width: 250px;
+    }
   }
 }

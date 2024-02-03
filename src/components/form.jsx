@@ -47,6 +47,8 @@ export const FormC = () => {
       <br />
       <input type="submit" value="Send" />
     </form>
+
+    
   );
 };
 
